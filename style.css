@@ -1,0 +1,289 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.quadrado-1-azul {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+.quadrado-1-vermelho {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quadrado-1-preto {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quadrado-1-verde {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: green;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quadrado-1-amarelo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#atividade-1 {
+  border: 3px solid black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+}
+
+#atividade-2 {
+  border: 3px solid black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+}
+
+#atividade-3 {
+  border: 3px solid black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+}
+
+#atividade-4 {
+  border: 3px solid black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+}
+
+#atividade-1:hover {
+  background-color: black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+}
+
+#atividade-2:hover {
+  background-color: black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+}
+
+#atividade-3:hover {
+  background-color: black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+}
+
+#atividade-4:hover {
+  background-color: black;
+  width: calc(482px / 4);
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+}
+
+.quadrado-cinza-claro {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(192, 192, 192);
+}
+
+.quadrado-escuro-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(24, 24, 24);
+}
+
+.quadrado-escuro-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(24, 24, 24);
+}
+
+.quadrado-escuro-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(24, 24, 24);
+}
+
+.quadrado-escuro-4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(24, 24, 24);
+}
+
+.quadrado-texto-1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 480px;
+  height: 130px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 20px;
+}
+
+.quadrado-texto-2 {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  width: 478px;
+  height: 120px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border: 2px solid red;
+  overflow: auto;
+}
+
+#texto-1 {
+  text-transform: uppercase;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#texto-2 {
+  margin-left: 10px;
+}
+
+#quadrado-pq-1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+}
+
+#quadrado-pq-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  left: 55px;
+}
+
+#quadrado-pq-3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  left: 110px;
+}
+
+#quadrado-pq-4 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  top: 55px;
+}
+
+#quadrado-pq-5 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  top: 55px;
+  left: 55px;
+}
+
+#quadrado-pq-6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  top: 110px;
+}
+
+#quadrado-pq-7 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  right: 0;
+  bottom: 0;
+}
+
+#quadrado-pq-8 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  right: 55px;
+  bottom: 0;
+}
+
+#quadrado-pq-9 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  right: 110px;
+  bottom: 0;
+}
+
+#quadrado-pq-10 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  right: 0;
+  bottom: 55px;
+}
+
+#quadrado-pq-11 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  right: 55px;
+  bottom: 55px;
+}
+
+#quadrado-pq-12 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+  right: 0;
+  bottom: 110px;
+}
