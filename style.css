@@ -42,7 +42,7 @@ html {
 
 .quadrado-1-amarelo {
   position: absolute;
-  width: 10px;
+  width: 100px;
   height: 100px;
   background-color: yellow;
   top: 50%;
